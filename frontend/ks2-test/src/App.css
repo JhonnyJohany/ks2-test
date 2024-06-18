@@ -1,0 +1,29 @@
+/* Establecer el fondo de la página a un gris claro */
+body {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px; /* Añade un poco de padding para mejor visualización */
+}
+
+/* Estilo para centrar el contenedor principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Establecer el color de las tarjetas a azul con letras blancas */
+.card {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Ajustar el ancho de las columnas a 50% para que se muestren 2 por fila */
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
