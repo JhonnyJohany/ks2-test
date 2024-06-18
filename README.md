@@ -28,13 +28,7 @@ git remote add origin https://github.com/JhonnyJohany/ks2-test.git
    npx sequelize-cli init
    ```
 
-3. Este crea el archivo migate:
-
-   ```bash
-   npx sequelize-cli migration:generate --name create-users-table
-   ```
-
-4. Por ultimo este comando para que haga la migración::
+3. Por ultimo este comando para que haga la migración::
 
    ```bash
    npx sequelize-cli db:migrate
